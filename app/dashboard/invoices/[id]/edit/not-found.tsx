@@ -1,5 +1,13 @@
 import Link from 'next/link';
 import { FaceFrownIcon } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: '% | Not Found',
+    default: 'Not Found',
+  },
+};
  
 export default function NotFound() {
   return (
